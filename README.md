@@ -26,7 +26,10 @@ Asks you to pick a model from the opencode registry, then runs a structured revi
 
 ## Installation
 
+Add the marketplace, then install:
+
 ```bash
+/plugin marketplace add srwbsw/opencode-skill
 /plugin install opencode-skill@opencode-skill
 ```
 

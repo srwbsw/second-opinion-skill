@@ -1,0 +1,27 @@
+{
+  "name": "opencode-skill",
+  "owner": {
+    "name": "Sirawit Bongsuwan",
+    "email": "main@srwbsw.com"
+  },
+  "metadata": {
+    "description": "Use opencode CLI as a second-opinion reviewer with your choice of AI model",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "opencode-skill",
+      "source": "./",
+      "description": "Use opencode CLI as a second-opinion reviewer with your choice of AI model",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": [
+        "opencode",
+        "code-review",
+        "second-opinion",
+        "ai-review",
+        "claude-code"
+      ]
+    }
+  ]
+}
