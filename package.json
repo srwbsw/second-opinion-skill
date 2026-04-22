@@ -1,0 +1,23 @@
+{
+  "name": "second-opinion-skill",
+  "version": "2.0.0",
+  "scripts": {
+    "prepare": "husky",
+    "lint": "node test/safety.test.js",
+    "lint:js": "eslint bin/ test/",
+    "format": "prettier --write bin/ test/",
+    "format:check": "prettier --check bin/ test/"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "husky": "^9.0.0",
+    "lint-staged": "^15.0.0",
+    "prettier": "^3.0.0"
+  }
+}
