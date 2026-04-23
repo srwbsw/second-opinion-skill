@@ -18,6 +18,9 @@ const requiredFlags = {
   opencode: ['--agent', 'plan'],
   gemini: ['--approval-mode', 'plan', '-s'],
   codex: ['-s', 'read-only'],
+  copilot: ['--plan', '--deny-tool=write'],
+  qwen: ['-s', '--approval-mode', 'plan'],
+  kilo: ['--agent', 'plan'],
 };
 
 // Read the review script
